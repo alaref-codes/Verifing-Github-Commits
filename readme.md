@@ -4,6 +4,7 @@
 
 -
       sudo apt install gpg
+      (On mac)  brew install gpg 
 -      
       gpg --full-generate-key
 -      
