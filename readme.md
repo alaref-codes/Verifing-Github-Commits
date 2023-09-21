@@ -19,7 +19,6 @@
 -      gpg --list-secret-keys --keyid-format=long
 -      git config --global user.signingkey {your_gpg_key_id}
 -      git config --global commit.gpgsign true
--      [ -f ~/.bashrc ] && echo -e '\nexport GPG_TTY=$(tty)' >> ~/.bashrc
 
 ## 3 - Adding Your GPG key to github account
 
