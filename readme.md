@@ -17,7 +17,7 @@
 [github-documentation](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)
 
 -      git config --global --unset gpg.format
--      gpg --list-secret-keys --keyid-format=long
+-      gpg --list-secret-keys --keyid-format=long // Copy the gpg id that is printed in this command
 -      git config --global user.signingkey {your_gpg_key_id}
 -      git config --global commit.gpgsign true
 
@@ -27,7 +27,7 @@
 - Go to SSH and GPG keys
 - Click on add new gpg key
 - To display your gpg key using termial add the following command
-  - gpg --list-secret-keys --keyid-format=long
+  - gpg --list-secret-keys --keyid-format=long // Copy the gpg id that is printed in this command
   - gpg --armor --export {your_gpg_key}
 
 
